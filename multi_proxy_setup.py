@@ -89,12 +89,12 @@ def main():
     print("\n" + "="*50)
     print("PROXY SETUP COMPLETE\n")
     for i, ip in enumerate(ips):
-        print(f"Proxy {i+1}:")
-        print(f"IP: {ip}")
-        print(f"Port: {base_port + i}")
-        print(f"Username: {username}")
-        print(f"Password: {password_proxy}")
-        print("-"*50)
+        # print(f"Proxy {i+1}:")
+        print(f"Proxy {i+1}: {ip},{base_port + i},{username},{password_proxy}")
+        # print(f"Port: {base_port + i}")
+        # print(f"Username: {username}")
+        # print(f"Password: {password_proxy}")
+        # print("-"*50)
 
 if __name__ == "__main__":
     main()
