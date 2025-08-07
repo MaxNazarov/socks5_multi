@@ -54,6 +54,8 @@ def main():
             command: connect
             log: error
             method: username
+            # Allow SMTP (Port 25)  
+            port: 25 
         }}
         """
         with open(f"/home/dante/danted_{ip}.conf", "w") as f:
